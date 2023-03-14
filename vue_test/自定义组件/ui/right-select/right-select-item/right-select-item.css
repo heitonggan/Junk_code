@@ -1,0 +1,17 @@
+.right-select-item {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.right-label {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 28px;
+    background-color: #f3f5f7;
+    border-left: 3px solid #d9dde1;
+    color: rgb(147, 153, 159);
+    font-size: 24px;
+    height: 52px;
+}

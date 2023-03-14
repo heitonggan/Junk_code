@@ -1,0 +1,12 @@
+.right-select {
+    width: calc(100% - 160px);;
+    height: calc(108 *8px + 15px);
+    overflow-y: hidden;
+    position: absolute;
+    left: 160px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: start;
+    flex-direction: column;
+}

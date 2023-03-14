@@ -1,0 +1,39 @@
+.success {
+    color: green;
+    /* border: 1px solid green; */
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+    margin-right: 5px;
+}
+
+.info {
+    color: rgba(7, 17, 27);
+    /* border: 1px solid rgba(7, 17, 27, 0.1); */
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+}
+
+.danger {
+    color: red;
+    /* border: 1px solid red; */
+    background-color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 2px;
+}
+
+.success-dark {
+    color: white;
+    border: none;
+    background-color: green;
+}
+
+.danger-dark {
+    color: white;
+    border: none;
+    background-color: red;
+}

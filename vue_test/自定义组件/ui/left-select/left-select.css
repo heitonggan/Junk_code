@@ -1,0 +1,13 @@
+.left-select{
+    width: 160px;
+    height: calc(108 *8px + 15px);
+    overflow-y: hidden;
+    position: absolute;
+    background-color: #f3f5f7;
+    left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+}

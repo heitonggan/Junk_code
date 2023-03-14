@@ -1,0 +1,22 @@
+.left-select-item{
+    width: 160px;
+    height: 108px;
+}
+
+.left-select-item-content{
+    width: 112px;
+    height: 108px;
+    font-size: 24px;
+    color: rgb(77, 85, 93);
+    text-align: left;
+    margin-left: 24px;
+    display: flex;
+    align-items: center;
+    background-color: #f3f5f7;
+    border-bottom: 1px solid rgba(7, 17, 27, 0.1);
+}
+.left-select-item-content--active{
+    background-color: #fff;
+    color: #000;
+    border: none;
+}

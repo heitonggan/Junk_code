@@ -1,0 +1,18 @@
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 36px;
+    padding-right: 36px;
+    width: 100%;
+    background-color: #fff;
+}
+
+.card-content {
+    width: 100%;
+    border-bottom: 1px solid rgba(7, 17, 27, 0.1);
+}
+
+.card-flex {
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div style="height: 750px;">
+        <div style="width: 100%;height: 268px;display: flex;background-color: rgba(7, 17, 27, 0.5);flex-wrap: wrap;">
+            <div style="display: flex;width: 100%;height: 212px;">
+                <div
+                    style="width: 128px;height: 128px;background-color:dodgerblue;margin-top: 48px;margin-left: 48px;margin-right: 32px;border-radius: 4px;">
+                    图片
+                </div>
+                <div style="color: #fff;flex: 1;">
+                    <div style="margin-top: 48px;display: flex;font-size: 32px;font-weight: bold;">
+                        <y-tag type="danger" effect="dark" style="margin-right: 12px;font-weight: normal;">品牌</y-tag>
+                        <div>粥品香坊（大运村）</div>
+                    </div>
+                    <div style="font-size: 24px;font-weight: 200;margin-top: 16px;">蜂鸟专送 / 38分钟送达</div>
+                    <div style="display: flex;margin-top: 20px;">
+                        <y-tag type="danger" style="margin-right: 8px;font-weight: normal;">减</y-tag>
+                        <div style="font-size: 20px;font-weight: 200;width: 100%;">在线支付满28减5，满50减10</div>
+                        <div
+                            style="display: flex;width: 100%;justify-content: flex-end;margin-right: 24px;align-items: center;flex: 1;">
+                            <div style="display: flex;font-size: 20px;position: absolute;
+                                border-radius: 50px;background-color:rgba(0, 0, 0, 0.2);
+                                border-left: 16px solid rgba(0, 0, 0, 0);border-right: 16px solid rgba(0, 0, 0, 0);
+                                border-top: 14px solid rgba(0, 0, 0, 0);border-bottom: 14px solid rgba(0, 0, 0, 0);">
+                                <div style="margin-right: 4px;">5个</div>
+                                <dvi>></dvi>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div
+                style="width: 100%;height: 56px;display: flex;align-items: center;color: #fff;background-color: rgba(7, 17, 27, 0.2);">
+                <dvi>
+                    <y-tag type="info" effect="dark" style="margin-left: 12px;;margin-right: 8px;font-weight: bold;">公告
+                    </y-tag>
+                </dvi>
+                <div style="margin-right: 8px;font-size: 20px;font-weight: 200;">
+                    粥品香坊其烹饪粥料的秘方源于中国千年古法,再融和现代制作工艺...
+                </div>
+                <div style="margin-right: 24px;flex: 1;">
+                    <div style="text-align: right;">
+                        >
+                    </div>
+                </div>
+            </div>
+        </div>
+        <y-tabs value="1">
+            <y-tab-pane label="商品" name="1">
+                <y-left-select value="2" content="menu">
+                    <div>
+                        <y-left-select-item name="1">热销榜</y-left-select-item>
+                        <y-left-select-item name="2">
+                            <y-tag type="success" effect="dark">特</y-tag>
+                            单人特色套餐
+                        </y-left-select-item>
+                        <y-left-select-item name="3">特色粥品</y-left-select-item>
+                        <y-left-select-item name="4">精选热菜</y-left-select-item>
+                        <y-left-select-item name="5">爽口凉菜</y-left-select-item>
+                        <y-left-select-item name="6">半成品</y-left-select-item>
+                        <y-left-select-item name="7">饭类</y-left-select-item>
+                        <y-left-select-item name="8">面类</y-left-select-item>
+                    </div>
+                </y-left-select>
+                <y-right-select value="2" name="menu" id="right">
+                    <div>
+                        <y-right-select-item name="1" label="热销榜"></y-right-select-item>
+                        <y-right-select-item name="2" label="单人特色套餐">
+                            <y-card>
+                                <div style="margin-top: 36px;">
+                                    <div
+                                        style="width: 64px; height: 64px;margin-right: 20px;background-color: cornflowerblue;">
+                                        图片</div>
+                                    <div
+                                        style="display: flex;flex-direction: column;align-items: flex-start;margin-bottom: 36px;">
+                                        <div>皮蛋瘦肉粥配包子套餐</div>
+                                        <div style="margin-top: 12px;color: rgb(147,153,159);font-size: 20px;">咸粥</div>
+                                        <div style="display: flex;margin-top: 12px;">
+                                            <div style="margin-right: 24px;font-size: 20px;color: rgb(147,153,159);">
+                                                月售1132份</div>
+                                            <div style="margin-right: 24px;font-size: 20px;color: rgb(147,153,159);">
+                                                好评率100%</div>
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div style="margin-right: 16px;font-size: 28px; color: red;">￥24</div>
+                                            <div><del
+                                                    style="color: rgb(147,153,159);font-size: 20px;font-weight: normal/700;">￥28</del>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;align-items: flex-end;margin-bottom: 36px;">
+                                        <y-stepper id="s"></y-stepper>
+                                    </div>
+                                </div>
+                            </y-card>
+                        </y-right-select-item>
+                        <y-right-select-item name="3" label="特色粥品">
+                            <y-card>
+                                <div style="margin-top: 36px;">
+                                    <div style="width: 64px; height: 64px;margin-right: 20px;">图片</div>
+                                    <div
+                                        style="display: flex;flex-direction: column;align-items: flex-start;margin-bottom: 36px;">
+                                        <div>莲子核桃黑米粥</div>
+                                        <!-- <div style="margin-top: 12px;color: rgb(147,153,159);font-size: 20px;">咸粥</div> -->
+                                        <div style="display: flex;margin-top: 12px;">
+                                            <div style="margin-right: 24px;font-size: 20px;color: rgb(147,153,159);">
+                                                月售1132份</div>
+                                            <div style="margin-right: 24px;font-size: 20px;color: rgb(147,153,159);">
+                                                好评率100%</div>
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div style="margin-right: 16px;font-size: 28px; color: red;">￥10</div>
+                                            <!-- <div><del style="color: rgb(147,153,159);font-size: 20px;font-weight: normal/700;">￥28</del></div> -->
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;align-items: flex-end;margin-bottom: 36px;">
+                                        <y-stepper id="s"></y-stepper>
+                                    </div>
+                                </div>
+                                <div style="margin-top: 36px;">
+                                    <div style="width: 64px; height: 64px;margin-right: 20px;">图片</div>
+                                    <div
+                                        style="display: flex;flex-direction: column;align-items: flex-start;margin-bottom: 36px;">
+                                        <div>雪梨银耳百合粥</div>
+                                        <!-- <div style="margin-top: 12px;color: rgb(147,153,159);font-size: 20px;">咸粥</div> -->
+                                        <div style="display: flex;margin-top: 12px;">
+                                            <div style="margin-right: 24px;font-size: 20px;color: rgb(147,153,159);">
+                                                月售1132份</div>
+                                            <div style="margin-right: 24px;font-size: 20px;color: rgb(147,153,159);">
+                                                好评率100%</div>
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div style="margin-right: 16px;font-size: 28px; color: red;">￥24</div>
+                                            <!-- <div><del style="color: rgb(147,153,159);font-size: 20px;font-weight: normal/700;">￥28</del></div> -->
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;align-items: flex-end;margin-bottom: 36px;">
+                                        <y-stepper id="s"></y-stepper>
+                                    </div>
+                                </div>
+                                <div style="margin-top: 36px;">
+                                    <div style="width: 64px; height: 64px;margin-right: 20px;">图片</div>
+                                    <div
+                                        style="display: flex;flex-direction: column;align-items: flex-start;margin-bottom: 36px;">
+                                        <div>南瓜粥</div>
+                                        <!-- <div style="margin-top: 12px;color: rgb(147,153,159);font-size: 20px;">咸粥</div> -->
+                                        <div style="display: flex;margin-top: 12px;">
+                                            <div style="margin-right: 24px;font-size: 20px;color: rgb(147,153,159);">
+                                                月售1132份</div>
+                                            <div style="margin-right: 24px;font-size: 20px;color: rgb(147,153,159);">
+                                                好评率100%</div>
+                                        </div>
+                                        <div style="display: flex;">
+                                            <div style="margin-right: 16px;font-size: 28px; color: red;">￥24</div>
+                                            <!-- <div><del style="color: rgb(147,153,159);font-size: 20px;font-weight: normal/700;">￥28</del></div> -->
+                                        </div>
+                                    </div>
+                                    <div style="display: flex;align-items: flex-end;margin-bottom: 36px;">
+                                        <y-stepper id="s"></y-stepper>
+                                    </div>
+                                </div>
+                            </y-card>
+                        </y-right-select-item>
+                        <y-right-select-item name="4" label="精选热菜"></y-right-select-item>
+                        <y-right-select-item name="5" label="爽口凉菜"></y-right-select-item>
+                        <y-right-select-item name="6" label="半成品"></y-right-select-item>
+                        <y-right-select-item name="7" label="饭类"></y-right-select-item>
+                        <y-right-select-item name="8" label="面类"></y-right-select-item>
+                    </div>
+                </y-right-select>
+            </y-tab-pane>
+            <y-tab-pane label="评价" name="2">2</y-tab-pane>
+            <y-tab-pane label="商家" name="3">3</y-tab-pane>
+        </y-tabs>
+        <div style="margin-top: calc(108 *8px + 15px);height: 88px;background-color: #141d27;display: flex;">
+            <div style="margin-left: 36px;flex: 1;">
+                <div class="circular_cart">
+                    <div class="shopping_cart" style="margin-left: -35px;margin-top: -15px;transform: scale(0.36);">
+                        <div class="rectangle"></div>
+                        <div style="display: flex;">
+                            <div style="width: 60px;height: 60px;margin-left: 24px;">
+                                <div class="triangle"></div>
+                            </div>
+                            <div style="width: 60px;height: 60px;margin-left: 53px;position: absolute;">
+                                <div class="triangle2"></div>
+                            </div>
+                            <div style="width: 60px;height: 60px;margin-left: -2px;">
+                                <div class="triangle3"></div>
+                            </div>
+                        </div>
+                        <div class="rectangle2"></div>
+                        <div style="width: 15px;height: 15px;">
+                            <div class="triangle4"></div>
+                        </div>
+                        <div class="rectangle3"></div>
+                        <div style="display: flex;margin-left: 55px;margin-top: 5px;">
+                            <div class="circular" style="margin-right: 25px;"></div>
+                            <div class="circular"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style="color: #97999c;font-size: 32px;">
+                <div style="display: flex;align-items: center;width: 100%;height: 100%;font-weight: 700;">
+                    ￥0
+                <div style="border-right: 1px solid rgba(255,255,255,0.1);width: 1px;height: 60%;margin-left: 24px;"></div>
+                </div>
+            </div>
+            <div style="font-size: 32px;color: rgba(255, 255, 255, 0.4);font-weight: 700;flex: 6;margin-left: 24px;display: flex;align-items: center;">
+                另需配送费￥4元
+            </div>
+            <div style="width: 210px;background-color: #2b333b;color: rgba(255, 255, 255, 0.4);font-size: 24px;font-weight: 700;display: flex;align-items: center;justify-content: center;">
+                ￥20起送
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./common.js"></script>
+<script src="./BScroll.js"></script>
+<script type="module">
+    // import {tagName} from './index.js'
+    import { YTabs } from "./ui/tabs/tabs.js"
+    import { YTabPane } from './ui/tabs/tab-pane/tab-pane.js'
+    import { YLeftSelect } from './ui/left-select/left-select.js'
+    import { YRightSelect } from './ui/right-select/right-select.js'
+    import { YLeftSelectItem } from './ui/left-select/left-select-item/left-select-item.js'
+    import { YRightSelectItem } from './ui/right-select/right-select-item/right-select-item.js'
+    import { YTag } from './ui/tag/tag.js'
+    import { YCard } from './ui/card/card.js'
+    import { YStepper } from './ui/stepper/stepper.js'
+    // customElements.define('tag-name', tagName)
+    customElements.define('y-tabs', YTabs)
+    customElements.define('y-tab-pane', YTabPane)
+    customElements.define('y-left-select', YLeftSelect)
+    customElements.define('y-right-select', YRightSelect)
+    customElements.define('y-left-select-item', YLeftSelectItem)
+    customElements.define('y-right-select-item', YRightSelectItem)
+    customElements.define('y-tag', YTag)
+    customElements.define('y-card', YCard)
+    customElements.define('y-stepper', YStepper)
+    // let right = document.getElementById('right')
+    // right.addEventListener('content',event => {
+    //     console.log(event);
+    // })
+    document.getElementById('s').addEventListener('stepperNumberChange', event => {
+        console.log(event.detail.value);
+    })
+</script>
+
+</html>

@@ -1,0 +1,21 @@
+.y-tab-pane{
+    width: 100%;
+    text-align: center;
+    cursor: pointer;
+    font-size: 28px;
+    color: rgb(77, 85, 93);
+}
+.y-tab-pane--active{
+    color: rgb(240, 20, 20);
+}
+
+.y-tab-pane-item{
+    display: none;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+}
+.y-tab-pane-item--active{
+    display: flex;
+    width: 100%;
+}
